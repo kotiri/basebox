@@ -4,6 +4,7 @@ CENTOS_SESSION =
   COMMON_SESSION.merge({ :boot_cmd_sequence =>
                          [ 'linux text ks=http://%IP%:%PORT%/ks.cfg<Enter>' ],
                          :kickstart_file => "ks.cfg",
+                         :memory_size=> '480',
                          :os_type_id => 'RedHat_64',
                          :postinstall_files => [ "ruby.sh",
                                                  "vagrant.sh",
