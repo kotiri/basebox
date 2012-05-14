@@ -1,5 +1,6 @@
 #!/bin/bash -eux
-
+apt-get install -y linux-headers-$(uname -r)
+apt-get source linux-image-$(uname -r)
 mkdir /tmp/vbox
 VER=$(cat /home/vagrant/.vbox_version)
 wget http://download.virtualbox.org/virtualbox/$VER/VBoxGuestAdditions_$VER.iso
