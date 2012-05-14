@@ -26,7 +26,7 @@ UBUNTU_SESSION =
                           " -- ",
                           "<Enter>"
                          ],
-                         :os_type_id => 'Ubuntu_64',
+                         :os_type_id => 'Ubuntu',
                          :postinstall_files => [ "update.sh",
                                                  "ruby.sh",
                                                  "vagrant.sh",
