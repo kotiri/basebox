@@ -16,4 +16,3 @@ wget --no-check-certificate \
     -O /home/vagrant/.ssh/authorized_keys
 chown -R vagrant /home/vagrant/.ssh
 chmod -R go-rwsx /home/vagrant/.ssh
-su vagrant -c 'bash -c "source /etc/profile.d/rvm.sh && rvm --default use system"'

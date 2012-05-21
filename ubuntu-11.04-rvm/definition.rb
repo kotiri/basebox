@@ -1,5 +1,4 @@
-require File.dirname(__FILE__) + "/../.ubuntu/session.rb"
-
+require File.dirname(__FILE__) + "/session.rb"
 iso = "ubuntu-11.04-server-i386.iso"
 
 session =
